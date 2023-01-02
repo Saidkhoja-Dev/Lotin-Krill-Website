@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lotin-Krill tarjimon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bu sayt matnni krillchadan lotinchaga aylantiradi!"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="body-rows top-row">Tarjimon Lotin-Krill</div>
+    <div class="body-rows big-row">
+      <div class="inner-col">
+        <div class="btn-container">
+          <div class="p">Lotin:</div>
+          <div class="inner-btn">
+            <button id="delete-all" title="Delete">
+              <svg
+                id="Capa_1"
+                enable-background="new 0 0 320.941 320.941"
+                height="18"
+                viewBox="0 0 320.941 320.941"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m290.853 40.118h-181.049c-9.06 0-17.551 4.016-23.301 11.038l-84.241 102.968c-3.017 3.692-3.017 9.001 0 12.693l84.251 102.978c5.739 7.013 14.231 11.028 23.291 11.028h181.048c16.592 0 30.088-13.497 30.088-30.088v-180.529c.001-16.592-13.496-30.088-30.087-30.088zm10.029 210.617c0 5.534-4.496 10.029-10.029 10.029h-181.049c-3.026 0-5.857-1.342-7.767-3.673l-79.05-96.621 79.04-96.611c1.92-2.341 4.75-3.683 7.777-3.683h181.048c5.534 0 10.029 4.496 10.029 10.029.001.001.001 180.53.001 180.53z"
+                />
+                <path
+                  d="m223.585 103.232-43.056 43.056-43.056-43.056-14.182 14.182 43.056 43.056-43.056 43.056 14.182 14.182 43.056-43.056 43.056 43.056 14.182-14.182-43.056-43.056 43.056-43.056z"
+                />
+              </svg>
+            </button>
+            <button id="copy-latin" title="Copy">
+              <svg
+                height="18pt"
+                viewBox="-40 0 512 512"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m271 512h-191c-44.113281 0-80-35.886719-80-80v-271c0-44.113281 35.886719-80 80-80h191c44.113281 0 80 35.886719 80 80v271c0 44.113281-35.886719 80-80 80zm-191-391c-22.054688 0-40 17.945312-40 40v271c0 22.054688 17.945312 40 40 40h191c22.054688 0 40-17.945312 40-40v-271c0-22.054688-17.945312-40-40-40zm351 261v-302c0-44.113281-35.886719-80-80-80h-222c-11.046875 0-20 8.953125-20 20s8.953125 20 20 20h222c22.054688 0 40 17.945312 40 40v302c0 11.046875 8.953125 20 20 20s20-8.953125 20-20zm0 0"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="txt-wrap">
+          <textarea
+            id="latin"
+            placeholder="Lotin..."
+            spellcheck="false"
+            style="resize: none"
+          ></textarea>
+        </div>
+      </div>
+      <div class="inner-col">
+        <div class="btn-container">
+          <div class="p">Крилл:</div>
+          <div class="inner-btn">
+            <button id="delete-all" title="Delete">
+              <svg
+                id="Capa_1"
+                enable-background="new 0 0 320.941 320.941"
+                height="18"
+                viewBox="0 0 320.941 320.941"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m290.853 40.118h-181.049c-9.06 0-17.551 4.016-23.301 11.038l-84.241 102.968c-3.017 3.692-3.017 9.001 0 12.693l84.251 102.978c5.739 7.013 14.231 11.028 23.291 11.028h181.048c16.592 0 30.088-13.497 30.088-30.088v-180.529c.001-16.592-13.496-30.088-30.087-30.088zm10.029 210.617c0 5.534-4.496 10.029-10.029 10.029h-181.049c-3.026 0-5.857-1.342-7.767-3.673l-79.05-96.621 79.04-96.611c1.92-2.341 4.75-3.683 7.777-3.683h181.048c5.534 0 10.029 4.496 10.029 10.029.001.001.001 180.53.001 180.53z"
+                />
+                <path
+                  d="m223.585 103.232-43.056 43.056-43.056-43.056-14.182 14.182 43.056 43.056-43.056 43.056 14.182 14.182 43.056-43.056 43.056 43.056 14.182-14.182-43.056-43.056 43.056-43.056z"
+                />
+              </svg>
+            </button>
+            <button id="copy-krill" title="Copy">
+              <svg
+                height="18pt"
+                viewBox="-40 0 512 512"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m271 512h-191c-44.113281 0-80-35.886719-80-80v-271c0-44.113281 35.886719-80 80-80h191c44.113281 0 80 35.886719 80 80v271c0 44.113281-35.886719 80-80 80zm-191-391c-22.054688 0-40 17.945312-40 40v271c0 22.054688 17.945312 40 40 40h191c22.054688 0 40-17.945312 40-40v-271c0-22.054688-17.945312-40-40-40zm351 261v-302c0-44.113281-35.886719-80-80-80h-222c-11.046875 0-20 8.953125-20 20s8.953125 20 20 20h222c22.054688 0 40 17.945312 40 40v302c0 11.046875 8.953125 20 20 20s20-8.953125 20-20zm0 0"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="txt-wrap">
+          <textarea
+            id="krill"
+            placeholder="Крилл..."
+            spellcheck="false"
+            style="resize: none"
+          ></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="body-rows bottom-row">
+      <marquee behavior="" direction="left">
+        <p class="desc-bottom">
+          Copyright &copy; 2023-year. Made by
+          <a href="https://github.com/Saidkhoja-Dev" target="_blank"
+            >Saidaminxo'ja
+          </a>
+        </p>
+      </marquee>
+    </div>
+  </body>
+
+  <script src="./js/script.js"></script>
+</html>
